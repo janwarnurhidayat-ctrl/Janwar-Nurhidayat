@@ -1,0 +1,72 @@
+/* Custom Styles & Overrides */
+
+/* Skill Tag */
+.skill-tag {
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: rgba(15, 23, 42, 0.8);
+    border: 1px solid rgba(51, 65, 85, 0.8);
+    color: #cbd5e1;
+    transition: all 0.2s ease-in-out;
+}
+
+.skill-tag:hover {
+    border-color: #06b6d4;
+    color: #ffffff;
+}
+
+/* Filter Button */
+.filter-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 0.500;
+    border-radius: 9999px;
+    background-color: rgba(30, 41, 59, 0.8);
+    border: 1px solid #334155;
+    color: #94a3b8;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.filter-btn:hover {
+    color: #ffffff;
+    border-color: #06b6d4;
+}
+
+.filter-btn.active {
+    background-color: #06b6d4;
+    color: #0f172a;
+    font-weight: 700;
+    border-color: #06b6d4;
+}
+
+/* Smooth Card Animations */
+.project-card {
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(6, 182, 212, 0.5);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #06b6d4;
+}

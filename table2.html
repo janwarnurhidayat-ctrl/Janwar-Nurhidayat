@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TABLE USING COLSPAN, ROWSPAN</title>
+<style>
+  body { font-family: serif; }
+  h3 { text-align: center; letter-spacing: 2px; margin-bottom: 10px; }
+  table {
+    width: 700px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #00A651;
+    border: 3px solid white;
+  }
+  td {
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 16px;
+  }
+</style>
+</head>
+<body>
+
+<h3>TABLE USING COLSPAN, ROWSPAN</h3>
+
+<table>
+  <!-- Baris 1 -->
+  <tr>
+    <td rowspan="10">A</td>
+    <td rowspan="9">B</td>
+    <td rowspan="8">C</td>
+    <td rowspan="7">D</td>
+    <td rowspan="6">E</td>
+    <td rowspan="5">F</td>
+    <td colspan="2">AH</td>
+    <td rowspan="5">H</td>
+    <td rowspan="6">I</td>
+    <td rowspan="7">J</td>
+    <td rowspan="8">K</td>
+    <td rowspan="9">L</td>
+    <td rowspan="10">M</td>
+  </tr>
+  <!-- Baris 2 -->
+  <tr>
+    <td colspan="2">H</td>
+  </tr>
+  <!-- Baris 3 -->
+  <tr>
+    <td colspan="2">GH</td>
+  </tr>
+  <!-- Baris 4 -->
+  <tr>
+    <td colspan="2">N</td>
+  </tr>
+  <!-- Baris 5 -->
+  <tr>
+    <td colspan="2">O</td>
+  </tr>
+  <!-- Baris 6 -->
+  <tr>
+    <td colspan="8">P</td>
+  </tr>
+  <!-- Baris 7 -->
+  <tr>
+    <td colspan="10">Q</td>
+  </tr>
+  <!-- Baris 8 -->
+  <tr>
+    <td>R</td>
+    <td colspan="2">S</td>
+    <td>T</td>
+    <td>U</td>
+    <td colspan="2">V</td>
+    <td>W</td>
+    <td>X</td>
+  </tr>
+  <!-- Baris 9 -->
+  <tr>
+    <td colspan="11">Y</td>
+  </tr>
+  <!-- Baris 10 -->
+  <tr>
+    <td>Z</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+  </tr>
+</table>
+
+</body>
+</html>
